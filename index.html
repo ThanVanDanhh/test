@@ -16,17 +16,17 @@
                 <form id="rentForm" class="mt-4 p-4 border rounded bg-light shadow">
                     <div class="form-group">
                         <label for="phatsinh">Phát sinh:</label>
-                        <input type="number" class="form-control" id="phatsinh" required>
+                        <input type="text" class="form-control" id="phatsinh" placeholder="Nhập phát sinh" required>
                     </div>
 
                     <div class="form-group">
                         <label for="tiendien">Tiền điện:</label>
-                        <input type="number" class="form-control" id="tiendien" required>
+                        <input type="text" class="form-control" id="tiendien" placeholder="Nhập tiền điện" required>
                     </div>
 
                     <div class="form-group">
                         <label for="tiennuoc">Tiền nước:</label>
-                        <input type="number" class="form-control" id="tiennuoc" required>
+                        <input type="text" class="form-control" id="tiennuoc" placeholder="Nhập tiền nước" required>
                     </div>
 
                     <h2 class="mt-4 text-secondary">Nhập số ngày ở của từng thành viên</h2>
@@ -37,24 +37,25 @@
             </div>
 
             <!-- Phần hiển thị kết quả -->
-            <!-- Phần hiển thị kết quả -->
-<div class="col-md-6">
-    <div id="result" class="mt-4 p-4 border rounded bg-white shadow" style="height: 100%">
-        <h2 class="text-center text-secondary">Kết Quả</h2>
-        <div id="resultContent" class="text-center">
-            <p class="lead">Vui lòng tính toán để hiển thị kết quả ở đây.</p>
-            <table class="table table-bordered mt-3" id="resultTable" style="display: none;">
-                <thead class="thead-light">
-                    <tr>
-                        <th>Thành Phần</th>
-                        <th>Số Tiền (VNĐ)</th>
-                    </tr>
-                </thead>
-                <tbody id="resultDetails"></tbody>
-            </table>
+            <div class="col-md-6">
+                <div id="result" class="mt-4 p-4 border rounded bg-white shadow" style="height: 100%">
+                    <h2 class="text-center text-secondary">Kết Quả</h2>
+                    <div id="resultContent" class="text-center">
+                        <p class="lead">Vui lòng tính toán để hiển thị kết quả ở đây.</p>
+                        <table class="table table-bordered mt-3" id="resultTable" style="display: none;">
+                            <thead class="thead-light">
+                                <tr>
+                                    <th>Tên thành viên</th>
+                                    <th>Số ngày ở</th>
+                                    <th>Số tiền trả (VNĐ)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="resultDetails"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
     </div>
 
     <script src="script.js"></script>
