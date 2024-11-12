@@ -1,0 +1,102 @@
+body {
+  
+    margin: 0 auto; /* Căn giữa trang */
+    font-size: 14px; /* Kích thước chữ toàn bộ trang */
+}
+
+h1 {
+    color: #007bff; /* Màu tiêu đề */
+    font-size: 30px; /* Kích thước tiêu đề nhỏ hơn */
+}
+title{
+    color:black;
+    font-size: 100px;
+}
+
+h2 {
+    color: #6c757d; /* Màu tiêu đề phụ */
+    font-size: 18px; /* Kích thước tiêu đề phụ nhỏ hơn */
+}
+
+.result {
+    background-color: #ffffff; /* Màu nền cho phần kết quả */
+    padding: 10px; /* Padding nhỏ hơn */
+    border-radius: 15px; /* Bo góc cho phần kết quả */
+    border: 1px solid #ccc; /* Viền cho phần kết quả */
+}
+
+.container {
+    margin-top: 10px; /* Khoảng cách trên cho container nhỏ hơn */
+    font-weight: bold; /* Định dạng chữ đậm */
+}
+
+.form-group {
+    margin-bottom: 10px; /* Khoảng cách dưới cho nhóm form nhỏ hơn */
+}
+
+.form-group label {
+    display: block; /* Hiển thị label dưới dạng khối */
+    margin-bottom: 3px; /* Khoảng cách dưới cho label nhỏ hơn */
+}
+
+.form-group input {
+    width: 100%; /* Đặt chiều rộng cho input */
+    padding: 8px; /* Padding cho input nhỏ hơn */
+    border: 1px solid #ced4da; /* Viền cho input */
+    border-radius: 3px; /* Bo góc cho input nhỏ hơn */
+}
+
+.footer {
+    text-align: center; /* Căn giữa cho footer */
+    margin-top: 15px; /* Khoảng cách trên cho footer nhỏ hơn */
+    font-size: 12px; /* Kích thước font cho footer nhỏ hơn */
+}
+#result {
+    background-color: #f8f9fa; /* Màu nền nhẹ cho phần kết quả */
+    border: 1px solid #ced4da; /* Đường viền nhẹ */
+}
+
+#result h2 {
+    font-weight: bold; /* Chữ đậm cho tiêu đề */
+}
+
+#resultContent {
+    padding: 20px; /* Thêm khoảng cách bên trong */
+}
+
+#resultDetails {
+    background-color: #e9ecef; /* Màu nền cho chi tiết kết quả */
+    border-radius: 5px; /* Bo góc cho phần chi tiết */
+    padding: 15px; /* Khoảng cách bên trong */
+    margin-top: 20px; /* Khoảng cách phía trên */
+}
+
+.result-item {
+    margin: 5px 0; /* Khoảng cách giữa các mục kết quả */
+    font-size: 1.2em; /* Kích thước chữ lớn hơn cho dễ đọc */
+    color: #343a40; /* Màu chữ tối cho dễ đọc */
+}
+/* Giảm chiều rộng của phần bên trái */
+#members {
+    max-width: 300px; /* Chiều rộng tối đa cho phần nhập liệu */
+    margin: 0 auto; /* Căn giữa phần nhập liệu */
+}
+
+/* Điều chỉnh kiểu cho các nhãn và input */
+.member-label {
+    font-size: 12px; /* Kích thước chữ cho nhãn */
+    margin-bottom: 3px; /* Khoảng cách dưới nhãn */
+}
+
+.form-control {
+    font-size: 12px; /* Kích thước chữ cho input */
+    padding: px; /* Giảm khoảng cách bên trong input */
+}
+
+/* Điều chỉnh khoảng cách giữa các dòng trong bảng */
+.table {
+    font-size: 14px; /* Kích thước chữ cho bảng */
+}
+.table th, .table td {
+    padding: 8px; /* Giảm khoảng cách bên trong ô bảng */
+}
